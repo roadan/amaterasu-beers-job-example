@@ -1,0 +1,10 @@
+---
+repos
+  - name: maven
+    id: maven-central
+    url: http://repo1.maven.org/maven2/
+deps
+  - groupId: com.kifi
+    artifactId: slack-client
+    version: 0.2        
+...
