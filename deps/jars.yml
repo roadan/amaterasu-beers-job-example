@@ -1,9 +1,9 @@
 ---
-repos
-  - name: maven
-    id: maven-central
+repos:
+  - id: maven-central
+    type: default
     url: http://repo1.maven.org/maven2/
-deps
+artifacts:  
   - groupId: com.kifi
     artifactId: slack-client
     version: 0.2        
