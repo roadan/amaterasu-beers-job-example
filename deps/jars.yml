@@ -7,4 +7,8 @@ artifacts:
   - groupId: com.flyberrycapital
     artifactId: scala-slack_2.10
     version: 0.3.0
+condaPackages:
+  - packageId: numpy
+    channel: conda-forge
+  - packageId: scipy # If no channel is specified, the "anaconda" default channel will be used
 ...
