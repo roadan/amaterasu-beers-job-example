@@ -7,8 +7,10 @@ artifacts:
   - groupId: com.flyberrycapital
     artifactId: scala-slack_2.10
     version: 0.3.0
-condaPackages:
+pythonPackages:
   - packageId: numpy
     channel: conda-forge
   - packageId: scipy # If no channel is specified, the "anaconda" default channel will be used
+  - packageId: Django # We can also handle packages from PyPi, not only anaconda
+    index: pypi
 ...
