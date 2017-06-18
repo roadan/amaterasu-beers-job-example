@@ -9,8 +9,11 @@ artifacts:
     version: 0.3.0
 pythonPackages:
   - packageId: numpy
+    index: anaconda
     channel: conda-forge
   - packageId: scipy # If no channel is specified, the "anaconda" default channel will be used
+    index: anaconda
+    channel: anaconda
   - packageId: Django # We can also handle packages from PyPi, not only anaconda
     index: pypi
 ...
