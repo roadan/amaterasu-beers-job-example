@@ -1,0 +1,9 @@
+packages:
+  - packageId: numpy
+    index: anaconda
+    channel: conda-forge
+  - packageId: scipy
+    index: anaconda
+    channel: anaconda
+  - packageId: Django
+    index: pypi
