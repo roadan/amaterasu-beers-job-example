@@ -4,6 +4,6 @@ def foo():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print(data)
 
-    with open('amatest-in.txt', 'a') as the_file:
+    with open('/tmp/amatest-in.txt', 'a') as the_file:
         the_file.write('hi there\n') # python will convert \n to os.linesep
 foo()
