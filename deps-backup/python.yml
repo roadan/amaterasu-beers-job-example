@@ -1,0 +1,4 @@
+pythonPackages:
+  - packageId: numpy
+  - packageId: scipy
+  - packageId: scikit-learn
