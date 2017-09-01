@@ -1,2 +1,2 @@
-pythonPackages:
+packages:
   - packageId: numpy
