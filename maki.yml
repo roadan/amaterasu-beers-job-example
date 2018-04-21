@@ -18,7 +18,7 @@ flow:
           group: spark
           type: pyspark
       file: ptfile1.py
-    -name: python2
+    - name: python2
        runner:
           group: spark
           type: pyspark
