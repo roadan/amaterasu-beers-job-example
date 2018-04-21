@@ -13,4 +13,14 @@ flow:
           group: spark
           type: scala 
       file: file2.scala
+    - name: python1
+      runner:
+          group: spark
+          type: pyspark
+      file: ptfile1.py
+    -name: python2
+       runner:
+          group: spark
+          type: pyspark
+      file: ptfile2.py
 ...
