@@ -8,11 +8,6 @@ flow:
       file: file.scala
       exports:
           odd: parquet
-    - name: step2
-      runner:
-          group: spark
-          type: scala 
-      file: file2.scala
     - name: python1
       runner:
           group: spark
