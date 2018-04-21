@@ -12,10 +12,10 @@ flow:
       runner:
           group: spark
           type: pyspark
-      file: ptfile1.py
+      file: pyfile1.py
     - name: python2
       runner:
           group: spark
           type: pyspark
-      file: ptfile2.py
+      file: pyfile2.py
 ...
