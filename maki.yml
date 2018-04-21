@@ -19,7 +19,7 @@ flow:
           type: pyspark
       file: ptfile1.py
     - name: python2
-       runner:
+      runner:
           group: spark
           type: pyspark
       file: ptfile2.py
