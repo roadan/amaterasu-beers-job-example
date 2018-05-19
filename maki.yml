@@ -1,13 +1,13 @@
 ---
 job-name:    amaterasu-test
 flow:
-    - name: start
-      runner:
-          group: spark
-          type: scala        
-      file: file.scala
-      exports:
-          odd: parquet
+#    - name: start
+#      runner:
+#          group: spark
+#          type: scala        
+#      file: file.scala
+#      exports:
+#          odd: parquet
     - name: python1
       runner:
           group: spark
