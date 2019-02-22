@@ -1,13 +1,6 @@
 ---
 job-name:    amaterasu-test
 flow:
-#    - name: start
-#      runner:
-#          group: spark
-#          type: scala        
-#      file: file.scala
-#      exports:
-#          odd: parquet
     - name: python1
       runner:
           group: spark
@@ -15,7 +8,7 @@ flow:
       file: pyfile1.py
     - name: python2
       runner:
-          group: spark
-          type: pyspark
+          group: python
+          type: python
       file: pyfile2.py
 ...
