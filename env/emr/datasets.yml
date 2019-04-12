@@ -1,0 +1,15 @@
+file:
+  - uri: s3a://amaterasu-example/input/random-beers
+    format: parquet
+    name: random-beers
+  - uri: s3a://amaterasu-example/output/saturday-beers
+    format: csv
+    name: saturday-beers
+
+generic:
+  - uri: https://sandbox-api.brewerydb.com/v2/beers
+    name: brewerydb-beers
+    format: json
+  - uri: https://sandbox-api.brewerydb.com/v2/styles
+    name: brewerydb-styles
+    format: json

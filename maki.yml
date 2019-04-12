@@ -1,14 +1,14 @@
 ---
-job-name:    amaterasu-test
+job-name: Find Best Beers For Saturday's BBQ
 flow:
-    - name: python1
+    - name: fetch_beers
       runner:
           group: spark
           type: pyspark
-      file: pyfile1.py
-    - name: python2
+      file: fetch_many_beers.py
+    - name: find_saturday_beers
       runner:
-          group: python
-          type: python
-      file: pyfile2.py
+          group: spark
+          type: pyspark
+      file: find_best_beers_for_saturday_noon.py
 ...

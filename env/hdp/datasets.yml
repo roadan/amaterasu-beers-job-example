@@ -1,0 +1,11 @@
+file:
+  - uri: reddit-data
+    name: reddit-data
+    format: csv
+  - uri: output/reddit-output
+    format: parquet
+    name: reddit-output
+
+hive:
+  - host: 172.31.34.234
+    table: topposts
