@@ -3,7 +3,7 @@ file:
     format: parquet
     name: random-beers
   - uri: /apps/amaterasu/amaterasu-example/output/saturday-beers
-    format: csv
+    format: json
     name: saturday-beers
 
 generic:
