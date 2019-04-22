@@ -4,5 +4,4 @@ inputRootPath: /apps/amaterasu/input
 outputRootPath: /apps/amaterasu/output
 workingDir: /apps/amaterasu/work_dir
 configuration:
-    spark.cassandra.connection.host: 127.0.0.1
-    sourceTable: documents
+    breweryDBApiKey: 7f70ba8064256a93ae81ea95172ed6e6
