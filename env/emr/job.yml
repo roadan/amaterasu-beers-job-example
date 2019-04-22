@@ -3,5 +3,5 @@ master: yarn
 inputRootPath: /apps/amaterasu/input
 outputRootPath: /apps/amaterasu/output
 workingDir: /apps/amaterasu/work_dir
-configuration:
+configurations:
     breweryDBApiKey: <edit this>
