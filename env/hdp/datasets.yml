@@ -1,4 +1,4 @@
-ile:
+file:
   - uri: /apps/amaterasu/amaterasu-example/input/random-beers
     format: parquet
     name: random-beers
