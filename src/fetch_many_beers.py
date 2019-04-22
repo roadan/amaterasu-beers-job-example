@@ -8,7 +8,7 @@ ama_context: AmaContext = AmaContext\
     .build()
 
 brewery_db_conf = ama_context.dataset_manager.get_dataset_configuration("brewerydb-beers")
-api_key = ama_context.env['configurations']['breweryDBApiKey']
+api_key = ama_context.env['configuration']['breweryDBApiKey']
 brewery_db_uri = brewery_db_conf['uri']
 
 
