@@ -1,5 +1,5 @@
 name: test
-master: yarn
+master: yarn-cluster
 inputRootPath: /apps/amaterasu/input
 outputRootPath: /apps/amaterasu/output
 workingDir: /apps/amaterasu/work_dir
