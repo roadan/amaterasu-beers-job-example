@@ -4,7 +4,6 @@ from typing import List, Dict, Any
 
 ama_context: AmaContext = AmaContext\
     .builder()\
-    .setMaster("local[*]")\
     .build()
 
 brewery_db_conf = ama_context.dataset_manager.get_dataset_configuration("brewerydb-beers")
