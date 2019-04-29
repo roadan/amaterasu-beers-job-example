@@ -1,8 +1,8 @@
 file:
-  - uri: reddit-data
+  - uri: file:///tmp/amaterasu/reddit-data
     name: reddit-data
     format: json
-  - uri: output/reddit-output
+  - uri: file:///tmp/amaterasu/output/reddit-output
     format: parquet
     name: reddit-output
 
