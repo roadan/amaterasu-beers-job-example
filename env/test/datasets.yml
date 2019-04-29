@@ -1,7 +1,7 @@
 file:
   - uri: reddit-data
     name: reddit-data
-    format: csv
+    format: json
   - uri: output/reddit-output
     format: parquet
     name: reddit-output
