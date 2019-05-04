@@ -4,4 +4,4 @@ inputRootPath: file:///amaterasu/input
 outputRootPath: file:///amaterasu/output
 workingDir: file:///tmp/amaterasu/work_dir
 configuration:
-    - breweryDBApiKey: 7f70ba8064256a93ae81ea95172ed6e6
+    breweryDBApiKey: 7f70ba8064256a93ae81ea95172ed6e6
