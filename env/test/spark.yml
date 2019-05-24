@@ -1,4 +1,4 @@
-sparkConfiguration
+sparkConfiguration:
     spark.executor.extraJavaOptions: -XX:+PrintGCDetails 
     spark.executor.memory: 1g
     spark.driver.memeory: 2g
