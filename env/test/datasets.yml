@@ -1,11 +1,15 @@
 file:
-  - uri: file:///tmp/amaterasu/reddit-data
-    name: reddit-data
-    format: json
-  - uri: file:///tmp/amaterasu/output/reddit-output
+  - uri: file:///tmp/amaterasu/input/random-beers
     format: parquet
-    name: reddit-output
+    name: random-beers
+  - uri: file:///tmp/amaterasu/output/saturday-beers
+    format: json
+    name: saturday-beers
 
-hive:
-  - host: 172.31.34.234
-    table: topposts
+generic:
+  - uri: https://sandbox-api.brewerydb.com/v2/beers
+    name: brewerydb-beers
+    format: json
+  - uri: https://sandbox-api.brewerydb.com/v2/styles
+    name: brewerydb-styles
+    format: json
